@@ -40,7 +40,7 @@ class HsrpChecker(object):
 
     def check_hsrp_output(self):
         """
-        This method will build desried the json output.
+        This method will build the desired json output.
         If the ssh_handler.handler object is valid, run the
         command against the device, otherwise, use the sample
         defined in the constant at the top.
